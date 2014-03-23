@@ -24,91 +24,100 @@ body {
     background: #7119b2;
 }
 
-
-@font-face { font-family: "sqmarket"; src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-thin.eot'); src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-thin.eot?#iefix') format("embedded-opentype"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-thin.woff') format("woff"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-thin.ttf') format("truetype"); font-weight: 100; font-style: normal; }
-
-@font-face { font-family: "sqmarket"; src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-light.eot'); src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-light.eot?#iefix') format("embedded-opentype"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-light.woff') format("woff"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-light.ttf') format("truetype"); font-weight: 300; font-style: normal; }
-
-@font-face { font-family: "sqmarket"; src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-lightitalic.eot'); src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-lightitalic.eot?#iefix') format("embedded-opentype"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-lightitalic.woff') format("woff"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-lightitalic.ttf') format("truetype"); font-weight: 300; font-style: italic; }
-
-@font-face { font-family: "sqmarket"; src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-regular.eot'); src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-regular.eot?#iefix') format("embedded-opentype"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-regular.woff') format("woff"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-regular.ttf') format("truetype"); font-weight: 400; font-style: normal; }
-
-@font-face { font-family: "sqmarket"; src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-regularitalic.eot'); src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-regularitalic.eot?#iefix') format("embedded-opentype"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-regularitalic.woff') format("woff"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-regularitalic.ttf') format("truetype"); font-weight: 400; font-style: italic; }
-
-@font-face { font-family: "sqmarket"; src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-medium.eot'); src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-medium.eot?#iefix') format("embedded-opentype"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-medium.woff') format("woff"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-medium.ttf') format("truetype"); font-weight: 500; font-style: normal; }
-
-@font-face { font-family: "sqmarket"; src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-mediumitalic.eot'); src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-mediumitalic.eot?#iefix') format("embedded-opentype"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-mediumitalic.woff') format("woff"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-mediumitalic.ttf') format("truetype"); font-weight: 500; font-style: italic; }
-
-@font-face { font-family: "sqmarket"; src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-bold.eot'); src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-bold.eot?#iefix') format("embedded-opentype"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-bold.woff') format("woff"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-bold.ttf') format("truetype"); font-weight: 700; font-style: normal; }
-
-@font-face { font-family: "sqmarket"; src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-bolditalic.eot'); src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-bolditalic.eot?#iefix') format("embedded-opentype"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-bolditalic.woff') format("woff"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqmarket/sqmarket-bolditalic.ttf') format("truetype"); font-weight: 700; font-style: italic; }
-
-@font-face { font-family: "sqcashicons"; src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqcashicons/sqcashicons.eot'); src: url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqcashicons/sqcashicons.eot?#iefix') format("embedded-opentype"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqcashicons/sqcashicons.woff') format("woff"), url('https://d3eak51ol1qdx0.cloudfront.net/fonts/sqcashicons/sqcashicons.ttf') format("truetype"); font-weight: 300; font-style: normal; }
-
-
-/* 页面整体架构布局 */
-#container {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+.ab0{
     position: absolute;
-}
-
-#container .chapter {
-    position: absolute;
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-}
-
-#container .chapter:not(:first-child) {
-    top: 100%;
-    bottom: auto;
-}
-
-
-#container .chapter.show{
     top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 
-#container .chapter.animate{
-    -webkit-transition: top 0.4s cubic-bezier(0.3, 0.1, 0.1, 0.7);
-    -webkit-transition-delay: 0s, linear;
-    -moz-transition: top 0.4s cubic-bezier(0.3, 0.1, 0.1, 0.7);
-    -o-transition: top 0.4s cubic-bezier(0.3, 0.1, 0.1, 0.7);
-    transition: top 0.4s cubic-bezier(0.3, 0.1, 0.1, 0.7);
-}
+@font-face { font-family: "sqmarket"; src: url('../fonts/sqmarket-thin.eot'); src: url('../fonts/sqmarket-thin.eot?#iefix') format("embedded-opentype"), url('../fonts/sqmarket-thin.woff') format("woff"), url('../fonts/sqmarket-thin.ttf') format("truetype"); font-weight: 100; font-style: normal; }
+
+@font-face { font-family: "sqmarket"; src: url('../fonts/sqmarket-light.eot'); src: url('../fonts/sqmarket-light.eot?#iefix') format("embedded-opentype"), url('../fonts/sqmarket-light.woff') format("woff"), url('../fonts/sqmarket-light.ttf') format("truetype"); font-weight: 300; font-style: normal; }
+
+@font-face { font-family: "sqmarket"; src: url('../fonts/sqmarket-lightitalic.eot'); src: url('../fonts/sqmarket-lightitalic.eot?#iefix') format("embedded-opentype"), url('../fonts/sqmarket-lightitalic.woff') format("woff"), url('../fonts/sqmarket-lightitalic.ttf') format("truetype"); font-weight: 300; font-style: italic; }
+
+@font-face { font-family: "sqmarket"; src: url('../fonts/sqmarket-regular.eot'); src: url('../fonts/sqmarket-regular.eot?#iefix') format("embedded-opentype"), url('../fonts/sqmarket-regular.woff') format("woff"), url('../fonts/sqmarket-regular.ttf') format("truetype"); font-weight: 400; font-style: normal; }
+
+@font-face { font-family: "sqmarket"; src: url('../fonts/sqmarket-regularitalic.eot'); src: url('../fonts/sqmarket-regularitalic.eot?#iefix') format("embedded-opentype"), url('../fonts/sqmarket-regularitalic.woff') format("woff"), url('../fonts/sqmarket-regularitalic.ttf') format("truetype"); font-weight: 400; font-style: italic; }
+
+@font-face { font-family: "sqmarket"; src: url('../fonts/sqmarket-medium.eot'); src: url('../fonts/sqmarket-medium.eot?#iefix') format("embedded-opentype"), url('../fonts/sqmarket-medium.woff') format("woff"), url('../fonts/sqmarket-medium.ttf') format("truetype"); font-weight: 500; font-style: normal; }
+
+@font-face { font-family: "sqmarket"; src: url('../fonts/sqmarket-mediumitalic.eot'); src: url('../fonts/sqmarket-mediumitalic.eot?#iefix') format("embedded-opentype"), url('../fonts/sqmarket-mediumitalic.woff') format("woff"), url('../fonts/sqmarket-mediumitalic.ttf') format("truetype"); font-weight: 500; font-style: italic; }
+
+@font-face { font-family: "sqmarket"; src: url('../fonts/sqmarket-bold.eot'); src: url('../fonts/sqmarket-bold.eot?#iefix') format("embedded-opentype"), url('../fonts/sqmarket-bold.woff') format("woff"), url('../fonts/sqmarket-bold.ttf') format("truetype"); font-weight: 700; font-style: normal; }
+
+@font-face { font-family: "sqmarket"; src: url('../fonts/sqmarket-bolditalic.eot'); src: url('../fonts/sqmarket-bolditalic.eot?#iefix') format("embedded-opentype"), url('../fonts/sqmarket-bolditalic.woff') format("woff"), url('../fonts/sqmarket-bolditalic.ttf') format("truetype"); font-weight: 700; font-style: italic; }
+
+@font-face { font-family: "sqcashicons"; src: url('../fonts/sqcashicons.eot'); src: url('../fonts/sqcashicons.eot?#iefix') format("embedded-opentype"), url('../fonts/sqcashicons.woff') format("woff"), url('../fonts/sqcashicons.ttf') format("truetype"); font-weight: 300; font-style: normal; }
 
 
 
-/* chapter 1 */
-.intro {
-    background-color: black;
-/*    background-image: url(../img/cover-2880-1616.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-*/}
-
-.intro video, .intro img {
-    width: 100%;
-    height: 100%;
-}
-
-.intro h1{
+/*
+* 第一页内容
+*/
+.show > div {
     position: absolute;
-    top: 0px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.video {
+    background-color: black;
+}
+
+section {
+    overflow: hidden;
+} 
+
+/*
+* 保证视屏全屏
+*/
+.video video {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translateX(-50%); 
+    -moz-transform: translateX(-50%); 
+    -ms-transform: translateX(-50%); 
+    -o-transform: translateX(-50%); 
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.content {
+    color: white;
+    z-index: 100;
+}
+
+.h1 {
+    z-index: 100;   
+}
+
+.h1 h1{
+    text-align: center;
+    position: relative;
+    clear: both;
     font-size: 150px;
     font-family: sqmarket;
     font-weight: 100;
 }
 
-.intro i.fa{
+.floater {
+    height: 50%;
+    float: left;
+    margin-bottom: -90px
+}
+
+.content i.fa{
     position: absolute;
     top: 20px;
 }
 
 /* 宽度为27*/
-
 .fa-linkedin-square {
     right: 40px;
 }
@@ -130,7 +139,7 @@ body {
     bottom: 20px;
 }
 
-.intro a {
+.content a {
     color: white;
 }
 
@@ -148,7 +157,7 @@ body {
     margin-bottom: 17px
 }
 
-.intro .caret { 
+.caret { 
     position: relative; 
     display: block; 
     margin: 0 auto; 
