@@ -2,40 +2,100 @@
 <html>
 <head>
     <title>test page</title>
-    <link rel="stylesheet" type="text/css" href="./assets/onepage-scroll.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/onepage-scroll.css">
     <style type="text/css">
-        .main section {
+        .main section h1{
             color: white;
-            padding-top: 1px;
+            margin-top: 0px;
+            text-align: center;
+            position: relative;
+            clear: both;
+            font-size: 150px;
+            font-family: sqmarket;
+            font-weight: 100;
         }
+
+        .floater {
+            height: 40%;
+            float: left;
+            margin-bottom: -90px
+        }
+
+
+        .main video{
+            position: absolute;
+            display: block;
+            min-width: 100%;
+            min-height: 100%;
+            -webkit-transform: translateX(-50%); 
+            -moz-transform: translateX(-50%); 
+            -ms-transform: translateX(-50%); 
+            -o-transform: translateX(-50%); 
+            transform: translateX(-50%);
+            left: 50%;
+            z-index: 0;
+        }
+
+        section {
+            height: 100%;
+        } 
+
+        section .h1{
+            height: 100%;
+        }
+
+        section{
+            overflow: hidden;
+        }
+
+
     </style>
 </head>
 <body>
     <div class='main'>
         <section style='background-color:black'>
-            <h1>section one </h1>
+
+            <video src="./assets/pana.mp4" autoplay></video>
+
+            <div class='h1'>
+                <div class='floater'></div>
+                <h1>Pana</h1>
+            </div>
+
         </section>
-        <section style='background-color: blue'>
-            <h1>section two</h1>
-        </section>
+
         <section style='background-color: green'>
             <h1>section three</h1>
         </section>
     </div>
-    <script type="text/javascript" src='./assets/jquery-2.0.3.js'></script>
-    <script type="text/javascript" src='./assets/jquery.onepage-scroll.js'></script>
+    <script type="text/javascript" src='./assets/js/jquery-2.0.3.js'></script>
+    <script type="text/javascript" src='./assets/js/jquery.onepage-scroll.js'></script>
     <script type="text/javascript">
         $(function () {
-
+            var video = $('video')[0]
             $('.main').onepage_scroll({
                 sectionContainer: 'section',
                 easing: "ease",
                 animationTime: 500,
                 pagination: true,                
                 updateURL: false,                
-                beforeMove: function(index) {},  
+                beforeMove: function(index) {
+                },  
                 afterMove: function(index) {
-                    // $('section .content').show();
+                    var a = $('section.active').data('index');
+                    if(a==1)
+                        $('.main').attr('style', 'relative');
+
+                    video[a == 1 ? 'play':'pause']();
+
+                    // var a = $('.main')[0].style['-webkit-transform'];
+                    // // console.log(a);
+                    // $('.main').css('transition', '');
+                    // $('.main').css('-webkit-transition', '');
+                    // $('.main').css('-webkit-transform', '');
+                    // $('.main').css('-webkit-transform', a);
+
+                    
                 },   
                 loop: false,                     
                 keyboard: true,                  
