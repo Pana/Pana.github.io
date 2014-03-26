@@ -1,0 +1,30 @@
+{
+  "name": "Pana",
+  "version": "0.0.0",
+  "description": "Pana intro page",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pana/pana.github.com.git"
+  },
+  "keywords": [
+    "Pana"
+  ],
+  "author": "Pana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pana/pana.github.com/issues"
+  },
+  "homepage": "https://github.com/pana/pana.github.com",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-html-build": "^0.3.2",
+    "grunt-processhtml": "^0.3.0",
+    "install": "^0.1.7",
+    "npm": "^1.4.6"
+  }
+}
