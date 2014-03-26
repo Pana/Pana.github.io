@@ -32,5 +32,12 @@ $(function () {
 
     // keyword event close or open sound
 
+    // set info bgcolor
+    var $info = $('.info');
+    var bgcolor = ['bggreen', 'bgblue', 'bgpurple'];
+    var today = new Date();
+    var bg = bgcolor[today.getDate()%3];
+    $info.removeClass('bggreen').addClass(bg);
+
 
 });

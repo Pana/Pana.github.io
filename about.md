@@ -7,17 +7,15 @@
 
     3. 第二页reponsive调整
 
-    4. 第二页文字, icon 调整
-
     6. SEO, 代码优化等
 
-    7. js, css 等文件压缩与合并
-
     8. Gruntfile
-        js, css 压缩合并
+        css 文件合并
         修改域名为七牛
 
 
     9. 提供多种格式的视频
 
     10. 多浏览器兼容
+
+    12. cdn 可以考虑切换到cloudflare 
