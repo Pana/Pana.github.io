@@ -19,3 +19,4 @@ Love and concentrate on Node.js
 * [Twitter](https://twitter.com/coderpana)
 * [Sina Weibo](http://weibo.com/becomepan)
 * [NPM](https://www.npmjs.org/~pana)
+* pana.wang@outlook.com
