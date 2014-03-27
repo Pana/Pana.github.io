@@ -23,12 +23,10 @@ module.exports = function(grunt) {
     },
 
     cssmin: {
-      minify: {
-        expand: true,
-        cwd: 'assets/css/',
-        src: ['*.css', '!*.min.css'],
-        dest: 'assets/css/',
-        ext: '.min.css'
+      combine: {
+        files: {
+          'assets/css/main.css': ['assets/css/onepage-scroll.css', 'assets/css/font-awesome.css', 'assets/css/style.css']
+        }
       }
     }
   });

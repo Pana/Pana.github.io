@@ -9,13 +9,8 @@
 
     6. SEO, 代码优化等
 
-    8. Gruntfile
-        css 文件合并
-        修改域名为七牛
-
-
     9. 提供多种格式的视频
 
     10. 多浏览器兼容
 
-    12. cdn 可以考虑切换到cloudflare 
+    12. cdn 可以考虑切换到cloudflare
