@@ -28,8 +28,17 @@
                 </div>
             </div>
             <div class='video'>
-                <video class='ab0' src='http://pana.qiniudn.com/pana.mp4' autoplay loop preload='true' defaultMuted='true'>
+                <video class='ab0' autoplay loop preload='true' defaultMuted='true'>
+                    <!-- Firefox --> 
+                    <source src="http://pana.qiniudn.com/pana.ogv" type="video/ogg" />  
+                    <source src="http://pana.qiniudn.com/pana.webm" type="video/webm" />
+                    <!-- Safari/Chrome-->   
+                    <source src="http://pana.qiniudn.com/pana.mp4" type="video/mp4" />
                     <img src="http://pana.qiniudn.com/img/cover-2880-1616.png">
+                    <!--<object width="800" height="374" type="application/x-shockwave-flash" data="fallback.swf">
+                        <param name="movie" value="fallback.swf" />
+                        <param name="flashvars" value="autostart=true&amp;file=video.flv" />
+                    </object>-->
                 </video>
             </div>
         </section>
