@@ -97,9 +97,17 @@
     </script>
     <script type="text/javascript">
         // set video start from 1
-        document.getElementById('vid1').addEventListener('loadedmetadata', function() {
-            this.currentTime = 4;
+        var video = document.getElementById('vid1');
+        var startTime = 4;
+        video.addEventListener('loadedmetadata', function() {
+            this.currentTime = startTime;
         }, false);
+        video.addEventListener('timeupdate', function() {
+            console.log(this.currentTime);
+          if (this.currentTime < 4 || this.currentTime > 232) {
+            this.currentTime = startTime;
+          }
+        });
     </script>
 </body>
 </html>
