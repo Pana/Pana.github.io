@@ -1,15 +1,10 @@
-截止日期:
-    3.30
 
-问题: 
-    1. 换会第一页后, 文字消失
 
-    3. 第二页reponsive调整
+### 关于
 
-    6. SEO, 代码优化等
+静态视频内容放于七牛云上
 
-    10. 多浏览器兼容
 
-    12. cdn 可以考虑切换到cloudflare
+## 优秀网站参考
 
-    13. ga 统计代码
+* http://markforhm.com/lookbook.html
