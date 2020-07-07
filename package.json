@@ -25,6 +25,6 @@
     "grunt-html-build": "^0.3.2",
     "grunt-processhtml": "^0.3.0",
     "install": "^0.1.7",
-    "npm": "^1.4.6"
+    "npm": "^6.14.6"
   }
 }
